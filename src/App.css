@@ -1,33 +1,58 @@
-.App {
+<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
+
+
+
+.App-all {
   text-align: center;
+  font-family: Roboto;
+  position: absolute;
+  height: 100%;
+  background-color: #F5FBF9;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  text-align: center;
+  padding: 36px 0 36px 0;
+}
+
+.App-body {
+  color: #666;
+  text-align: center;
+  opacity: 1;
+  padding-top: 40px;
+}
+
+
+.App-h1 {
+   color: #1CB9D6;
+   font-family: 'Lobster Two', sans-serif;
+   font-size: 48px;
+   margin-bottom: 30px;
+   line-height: 1.2em;
+}
+
+.App-h2{
+  font-size: 24px;
+}
+
+.App-aboutpersonas{
+    line-height: 1em;    
+    margin-top: 5px;
+}
+
+.App-button {
+  padding: 12px 12px 12px 12px;
   color: white;
+  background-color: #1CB9D6;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+  border-radius: 5px;
 }
 
 .App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+  color: white;
+  background-color: white;
 }
