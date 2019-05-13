@@ -1,14 +1,16 @@
-<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
+/*<link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet" type="text/css">
 <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet" type="text/css">
-
+*/
 
 
 .App-all {
   text-align: center;
-  font-family: Roboto;
+  /*font-family: Roboto;*/
   position: absolute;
   height: 100%;
+  width: 100%;
   background-color: #F5FBF9;
+  background-image: url(http://www.intheblack.com/~/media/intheblack/allimages/sponsored-content/2018/dexus-office-space.jpg);
 }
 
 
@@ -22,6 +24,12 @@
   text-align: center;
   opacity: 1;
   padding-top: 40px;
+  padding-bottom: 100px;
+  background-color: rgba(255, 255, 255, 0.7);
+}
+
+.text{
+  padding-bottom: 20px;
 }
 
 
@@ -35,6 +43,7 @@
 
 .App-h2{
   font-size: 24px;
+  padding-bottom: 20px;
 }
 
 .App-aboutpersonas{

@@ -17,9 +17,10 @@ function App() {
         <h1 className="App-h1"> O fantástico Gerador de Personas </h1>
         <h2 className="App-h2"> Empresas que documentam sua estratégia de Marketing de Conteúdo são 100% mais efetivas. </h2>
         <div className="App-aboutpersonas">
-          <p> Uma persona é a representação do seu cliente típico, com todas as suas principais características e necessidades. </p>
-          <p>Siga o passo a passo e crie de forma prática e gratuita um documento em PDF com sua persona para compartilhar na sua empresa. </p>
-         
+          <div className="text">
+            <p> Uma persona é a representação do seu cliente típico, com todas as suas principais características e necessidades. </p>
+            <p>Siga o passo a passo e crie de forma prática e gratuita um documento em PDF com sua persona para compartilhar na sua empresa. </p>
+          </div>
           <button className="App-button">Começar</button>
         </div>
       </body>
